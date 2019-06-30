@@ -49,6 +49,9 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
         //adding listener to button
         buttonLogout.setOnClickListener(this);
+
+        Kommunicate.init(context, APP_ID);
+
     }
 
     @Override
